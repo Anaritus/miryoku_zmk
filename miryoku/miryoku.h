@@ -10,13 +10,27 @@
 #define U_STRINGIFY(x) #x
 #define U_MACRO(name,...) \
 / { \
-  macros { \
-    name: name { \
-      compatible = "zmk,behavior-macro"; \
-      #binding-cells = <0>; \
-      __VA_ARGS__ \
-    }; \
-  }; \
+  macros {
+    name: name {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      __VA_ARGS__
+    };
+    to_rus: to_rus {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_tap &kp F13 &u_to_U_EXTRA>
+        ;
+    };
+    to_eng: to_eng {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_tap &kp F13 &u_to_U_BASE>
+        ;
+    };
+  };
 };
 
 #define U_NP &none // key is not present
