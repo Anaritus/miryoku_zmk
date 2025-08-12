@@ -350,7 +350,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &kp F13,       U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         &kp LC(LA(LSHFT)),              &kp LALT,         &kp LSHFT,         &kp LCTRL,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RCTRL,          U_NA,              \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          &kp BSPC,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RCTRL,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
@@ -363,7 +363,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &kp F13,       U_BOOT,            \
 &kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          &kp LC(LA(LSHFT)),              &kp LALT,         &kp LSHFT,         &kp LCTRL,          &kp LGUI,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RCTRL,          U_NA,              \
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          &kp BSPC,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RCTRL,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
