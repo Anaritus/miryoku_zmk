@@ -267,7 +267,7 @@ U_NA,              &kp RCTRL,          &u_to_U_NUM,       &u_to_U_NAV,       U_N
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_VI \
-U_BOOT,            &kp F13,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_BOOT,            &kp F13,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_GAMER,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LCTRL,          &kp LSHFT,         &kp LALT,         &kp LC(LA(LSHFT)),              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 U_NA,              &kp RCTRL,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
@@ -390,4 +390,4 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp TAB,           &kp SPACE,         &kp ESC,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp TAB,           &kp SPACE,         &kp ESC,           &kp RET,           &kp BSPC,          &u_to_U_BASE,           U_NP,              U_NP
